@@ -322,7 +322,10 @@ section#content {
         height: auto; 
         width: auto; 
         max-width: 300px; 
-        max-height: 300px;}	
+        max-height: 300px;
+        margin: auto;
+        display: block;
+}	
 	
 	
 .img-rounded1 img{
