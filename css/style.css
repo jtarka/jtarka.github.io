@@ -315,6 +315,16 @@ section#content {
 	-moz-border-radius:13px;
 	-webkit-border-radius:13px;}
 
+.img-profile img{
+        border-radius:13px;
+	-moz-border-radius:13px;
+	-webkit-border-radius:13px;
+        height: auto; 
+        width: auto; 
+        max-width: 300px; 
+        max-height: 300px;}	
+	
+	
 .img-rounded1 img{
 	  border-radius:8px;
 	-moz-border-radius:8px;
