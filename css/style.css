@@ -75,7 +75,7 @@ right:39px}
 .box-1  figcaption a:hover{background-position:0 bottom}	
 
 h1, h2, h3, h4, h5, h6 {
-	color:#fff;
+	color:#888;
 	position:relative;
 	line-height:1em;
 	font-weight:normal
@@ -146,7 +146,7 @@ a:hover {
 	overflow:hidden;
 	display:block;
 }
-p {color:#fff;
+p {color:#777;
 	padding-bottom:19px;
 }
 
@@ -396,7 +396,7 @@ margin:0 auto;background:url(../images/tail-cont.png);
 	line-height:16px;
 }
 .list li a {
-	color:#fff;
+	color:#777;
 	font-size:14px;	
 	background:url(../images/marker-2.png) no-repeat 1px 5px;	
 	padding:0 0 0 18px;	

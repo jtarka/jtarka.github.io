@@ -12,7 +12,7 @@
 <script>
 $(document).ready(function () {
     $('body').bgStretcher({
-        images: ['images/slide-2.jpg'],
+        images: ['images/slide-7.jpg'],
         imageWidth: 1600,
         imageHeight: 964,
         resizeProportionally: true
@@ -36,7 +36,7 @@ table {
     /*border-collapse: collapse; /* IE7 and lower */
     border-spacing: 0;
     width: 100%;    
-    color: #FFFFFF
+    color: #888
 }
 
 .bordered {
@@ -78,7 +78,7 @@ table {
     -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
     box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
     border-top: none;
-    text-shadow: 0 1px 0 rgba(255,255,255,.5); 
+    /*text-shadow: 0 1px 0 rgba(255,255,255,.5); */
 }
 
 .bordered td:first-child, .bordered th:first-child {
@@ -153,9 +153,31 @@ table {
   </header>
   <section id="content">
     <div class="main-block policy">
-      <div class="main_priceList">
+<!--      <div class="main_priceList"> -->
+          <div class="main">
         <h3>Cennik</h3>
 
+        
+<!-- alternatywnie spróbowac osadzic pdfa:  -->
+<!-- 
+<object data="help.pdf" type="application/pdf" width="100%" height="100%">
+
+  <p>It appears you don't have a PDF plugin for this browser.
+  No biggie... you can <a href="myfile.pdf">click here to
+  download the PDF file.</a></p>
+
+</object>
+-->
+
+
+<p><iframe src="help.pdf" width="100%" height="700" frameborder="0"></iframe></p></div>
+
+<!-- <a href="files/cennik_uslug_01072016.pdf">help.pdf</a><p>Aktualny cennik uług - 01.07.2016 r.</p> -->
+
+
+
+<!--
+        
 <table class="bordered">
     <thead>
 
@@ -233,6 +255,8 @@ table {
     </tr> 
 
 </table>
+
+-->
 
 <br><br>
         
