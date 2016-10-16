@@ -28,6 +28,11 @@ html {
 	position:relative;
 }
 
+.main_descriptions {
+	margin:0 auto;
+	width:700px;
+	position:relative;
+}
 
 .container_12 {
 	position:relative;
@@ -354,6 +359,8 @@ margin:0 auto;background:url(../images/tail-cont.png);
 }
 
 .omnie_right_text{text-align: justify}
+
+.descriptions{text-align: justify}
 
 
 /********************** links  & buttons ************************/
