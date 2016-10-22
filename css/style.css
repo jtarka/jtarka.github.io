@@ -389,8 +389,9 @@ margin:0 auto;background:url(../images/tail-cont.png);
 	margin-top:2px
 }
 .button:hover {	
-	background:#000;
+	background:#EEE;
 	text-decoration:none;
+    color: #ae81aa;
 }
 
 /*  Lists */
