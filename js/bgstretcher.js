@@ -155,7 +155,13 @@
 			
 			if ($('BODY').hasClass('bgStretcher-container')) {
 				winW = $(window).width();
+                                if(typeof(console) !== 'undefined' && console != null) {
+						console.log('bgwinW=', winW);
+					}
 				winH = $(window).height(); 
+                                if(typeof(console) !== 'undefined' && console != null) {
+						console.log('bgwinH=', winH);
+					}
 				if (($.browser.msie) && (parseInt(jQuery.browser.version) == 6)) {
 					$(window).scroll(function(){
 						$('#'+settings.imageContainer).css('top', $(window).scrollTop());
@@ -164,7 +170,13 @@
 			} else {
 				$('.bgstretcher').css('position', 'absolute').css('top', '0px');
 				winW = body_content.width();
-				winH = body_content.height(); 
+                                if(typeof(console) !== 'undefined' && console != null) {
+						console.log('winW=', winW);
+					}
+				winH = body_content.height();
+                                if(typeof(console) !== 'undefined' && console != null) {
+						console.log('winH=', winH);
+					}
 			}
 			
 			var imgW = 0, imgH = 0;
@@ -185,7 +197,13 @@
 			
 			//	Update container's size
 			container.width(contW);
+                        if(typeof(console) !== 'undefined' && console != null) {
+						console.log('contW=', contW);
+					}
 			container.height(contH);
+                        if(typeof(console) !== 'undefined' && console != null) {
+						console.log('contH=', contH);
+					}
 			
 			//	Non-proportional resize
 			if(!settings.resizeProportionally){
