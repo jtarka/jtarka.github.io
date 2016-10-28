@@ -179,6 +179,8 @@
 					}
 			}
 			
+                        winW = 1.12244897959*winW;
+                        
 			var imgW = 0, imgH = 0;
 			var leftSpace = 0;
 			
