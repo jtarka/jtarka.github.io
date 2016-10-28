@@ -189,7 +189,8 @@ z-index:100}
  position:relative; 
 }
 
-.extra-block{background:url(../images/tail-bg-cont.png) repeat-x 0 bottom}
+.extra-block{/*background:url(../images/tail-bg-cont.png) repeat-x 0 bottom*/ 
+    /* usuniecie tla powoduje usuniecie bialego paska na dole na stronach inych niz index*/}
 .extra-block1{ margin: 0 auto -5%;}
 
 

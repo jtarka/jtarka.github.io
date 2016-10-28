@@ -155,13 +155,13 @@
 			
 			if ($('BODY').hasClass('bgStretcher-container')) {
 				winW = $(window).width();
-                                if(typeof(console) !== 'undefined' && console != null) {
+                                /*if(typeof(console) !== 'undefined' && console != null) {
 						console.log('bgwinW=', winW);
-					}
+					}*/
 				winH = $(window).height(); 
-                                if(typeof(console) !== 'undefined' && console != null) {
+                                /*if(typeof(console) !== 'undefined' && console != null) {
 						console.log('bgwinH=', winH);
-					}
+					}*/
 				if (($.browser.msie) && (parseInt(jQuery.browser.version) == 6)) {
 					$(window).scroll(function(){
 						$('#'+settings.imageContainer).css('top', $(window).scrollTop());
@@ -179,7 +179,8 @@
 					}
 			}
 			
-                        winW = 1.12244897959*winW;
+                        /* dirty hack na zle obliczanie szerokosci strony na urzadzeniach mobilnych */
+                        winW = 1.12244897959 * winW;
                         
 			var imgW = 0, imgH = 0;
 			var leftSpace = 0;
@@ -199,13 +200,13 @@
 			
 			//	Update container's size
 			container.width(contW);
-                        if(typeof(console) !== 'undefined' && console != null) {
+                        /*if(typeof(console) !== 'undefined' && console != null) {
 						console.log('contW=', contW);
-					}
+					}*/
 			container.height(contH);
-                        if(typeof(console) !== 'undefined' && console != null) {
+                        /*if(typeof(console) !== 'undefined' && console != null) {
 						console.log('contH=', contH);
-					}
+					}*/
 			
 			//	Non-proportional resize
 			if(!settings.resizeProportionally){
