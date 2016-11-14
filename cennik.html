@@ -43,98 +43,6 @@ $(document).ready(function () {
 <link href="http://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet" type="text/css">  
 <![endif]-->
 
-<style>
-        
-
-
-table {
-    /*border-collapse: collapse; /* IE7 and lower */
-    border-spacing: 0;
-    width: 100%;    
-    color: #888
-}
-
-.bordered {
-    border: solid #ccc 0px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    -webkit-box-shadow: 0 1px 1px #ccc; 
-    -moz-box-shadow: 0 1px 1px #ccc; 
-    box-shadow: 0 1px 1px #ccc;         
-}
-
-.bordered tr:hover {
-    /*background: #fbf8e9;*/
-    background: #cd97c9;
-    -o-transition: all 0.1s ease-in-out;
-    -webkit-transition: all 0.1s ease-in-out;
-    -moz-transition: all 0.1s ease-in-out;
-    -ms-transition: all 0.1s ease-in-out;
-    transition: all 0.1s ease-in-out;     
-}    
-    
-.bordered td, .bordered th {
-    border-left: 1px solid #ccc;
-    border-top: 1px solid #ccc;
-    padding: 10px;
-    text-align: left;    
-}
-
-.bordered th {
-    background-color: #cd97c9;
-    background-image: -webkit-gradient(linear, left top, left bottom, from(#cd97c9), to(#cd97c9));
-    background-image: -webkit-linear-gradient(top, #cd97c9, #cd97c9);
-    background-image:    -moz-linear-gradient(top, #cd97c9, #cd97c9);
-    background-image:     -ms-linear-gradient(top, #cd97c9, #cd97c9);
-    background-image:      -o-linear-gradient(top, #cd97c9, #cd97c9);
-    background-image:         linear-gradient(top, #cd97c9, #cd97c9);
-    -webkit-box-shadow: 0 1px 0 rgba(255,255,255,.8) inset; 
-    -moz-box-shadow:0 1px 0 rgba(255,255,255,.8) inset;  
-    box-shadow: 0 1px 0 rgba(255,255,255,.8) inset;        
-    border-top: none;
-    /*text-shadow: 0 1px 0 rgba(255,255,255,.5); */
-}
-
-.bordered td:first-child, .bordered th:first-child {
-    border-left: none;
-}
-
-.bordered th:first-child {
-    -moz-border-radius: 6px 0 0 0;
-    -webkit-border-radius: 6px 0 0 0;
-    border-radius: 6px 0 0 0;
-}
-
-.bordered th:last-child {
-    -moz-border-radius: 0 6px 0 0;
-    -webkit-border-radius: 0 6px 0 0;
-    border-radius: 0 6px 0 0;
-}
-
-.bordered th:only-child{
-    -moz-border-radius: 6px 6px 0 0;
-    -webkit-border-radius: 6px 6px 0 0;
-    border-radius: 6px 6px 0 0;
-}
-
-.bordered tr:last-child td:first-child {
-    -moz-border-radius: 0 0 0 6px;
-    -webkit-border-radius: 0 0 0 6px;
-    border-radius: 0 0 0 6px;
-}
-
-.bordered tr:last-child td:last-child {
-    -moz-border-radius: 0 0 6px 0;
-    -webkit-border-radius: 0 0 6px 0;
-    border-radius: 0 0 6px 0;
-}
-
-
-
-</style>
-
-
 
 </head>
 <body>
@@ -173,7 +81,7 @@ table {
         <h3>Cennik</h3>
 
         
-<!-- alternatywnie spróbowac osadzic pdfa:  -->
+
 <!-- 
 <object data="help.pdf" type="application/pdf" width="100%" height="100%">
 
@@ -185,98 +93,15 @@ table {
 -->
 
 
-<p><iframe src="files/COSMEDICA_CENNIK.pdf" width="100%" height="700" frameborder="0"></iframe></p></div>
+        <p><iframe src="files/COSMEDICA_CENNIK.pdf" width="100%" height="700" frameborder="0"></iframe></p></div>
 
 <!-- <a href="files/cennik_uslug_01072016.pdf">help.pdf</a><p>Aktualny cennik uług - 01.07.2016 r.</p> -->
 
-
-
-<!--
+        <br>
+        <br>
         
-<table class="bordered">
-    <thead>
-
-    <tr>
-        <th>#</th>        
-        <th>Manicure</th>
-        <th>Cena</th>
-    </tr>
-    </thead>
-    <tr>
-        <td>1</td>        
-        <td>The Shawshank Redemption</td>
-
-        <td>1994</td>
-    </tr>        
-    <tr>
-        <td>2</td>         
-        <td>The Godfather</td>
-        <td>1972</td>
-    </tr>
-    <tr>
-
-        <td>3</td>         
-        <td>The Godfather: Part II</td>
-        <td>1974</td>
-    </tr>    
-    <tr>
-        <td>4</td> 
-        <td>The Good, the Bad and the Ugly</td>
-        <td>1966</td>
-
-    </tr>
-    <tr>
-        <td>5</td> 
-        <td>Pulp Fiction</td>
-        <td>1994</td>
-    </tr>
-    <tr>
-        <th>#</th>        
-        <th>Na Twarz</th>
-        <th>Cena</th>
-    </tr>
-    <tr>
-        <td>6</td> 
-        <td>12 Angry Men</td>
-
-        <td>1957</td>
-    </tr>
-    <tr>
-        <td>7</td> 
-        <td>Schindler's List</td>
-        <td>1993</td>
-    </tr>    
-    <tr>
-
-        <td>8</td> 
-        <td>One Flew Over the Cuckoo's Nest</td>
-        <td>1975</td>
-    </tr>
-    <tr>
-        <th>#</th>        
-        <th>Na ciało</th>
-        <th>Cena</th>
-    </tr>
-    <tr>
-        <td>9</td> 
-        <td>The Dark Knight</td>
-
-        <td>2008</td>
-    </tr>
-    <tr>
-        <td>10</td> 
-        <td>The Lord of the Rings: The Return of the King</td>
-        <td>2003</td>
-    </tr> 
-
-</table>
-
--->
-
-<br><br>
-        
-      </div>
     </div>
+  
   </section>
 </div>
 <div class="block">
